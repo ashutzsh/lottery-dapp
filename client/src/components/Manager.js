@@ -61,13 +61,13 @@ const Manager = ({ state }) => {
         <li className="list-group-item">
           <b> Winner: </b>
           {lwinner}
-          <button className="button1" onClick={winner}>
+          <button className="button2" onClick={winner}>
             Declare Winner
           </button>
         </li>
         <li className="list-group-item">
           <b>Balance: </b> {cbalance} ETH
-          <button className="button1" onClick={contractBalance}>
+          <button className="button3" onClick={contractBalance}>
             Check Balance
           </button>
         </li>

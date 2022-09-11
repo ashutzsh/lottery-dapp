@@ -45,7 +45,7 @@ const App = () => {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <Link to="/" className="nav-link navtext" aria-current="page">
-                  Lottery System
+                  Lottery Game
                 </Link>
               </li>
               <li className="nav-item">
@@ -54,7 +54,7 @@ const App = () => {
                   className="nav-link navtext"
                   aria-current="page"
                 >
-                  Manger
+                  Manager
                 </Link>
               </li>
               <li className="nav-item">

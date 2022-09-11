@@ -11,11 +11,11 @@ const Intro = () => {
           </li>
           <li className="list-group-item">
             <Link to="/manager" className="text-decoration-none text">
-              <button className="button1">Manager</button>
+              <button className="button1">The Manager</button>
             </Link>
-
+            <span>OR</span>
             <Link to="/players" className="text-decoration-none text">
-              <button className="button1 player">Player</button>
+              <button className="button1 player">A Player</button>
             </Link>
           </li>
         </div>

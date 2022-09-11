@@ -1,20 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .App {
   text-align: center;
 }
 
 body {
-  background-color: #ffe14b;
+  background-color: #7fe578;
+  font-family: 'Poppins', sans-serif;
+
 }
 .navbar {
-  background-color: #000000;
+  background-color: #05811a;
 }
 .navtext {
   color: white;
+  margin: 0 8px;
+  font-size: 18px;
 }
 .navtext:hover,
 .navtext:active {
   background: white;
   color: black;
+  border-radius: 8px;
 }
 .App-header {
   background-color: #282c34;
