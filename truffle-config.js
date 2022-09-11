@@ -20,7 +20,7 @@
 
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 //We need to install @truffle/hdwallet-provider by using npm install @truffle/hdwallet-provider
-const mnemonic = "resemble because cinnamon charge prefer achieve mimic outer sun cheese rug cable"
+const mnemonic = "resemble because cinnamon charge prefer achieve mimic outer sun cheese rug cable";
 //
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
@@ -62,7 +62,7 @@ module.exports = {
     // Useful for deploying to a public network.
     // Note: It's important to wrap the provider as a function to ensure truffle uses a new provider every time.
     goerli: {
-      provider: () => new HDWalletProvider(mnemonic, `https://eth-rinkeby.alchemyapi.io/v2/j5wbpNeYcww8HMT6mWa4ptBqBKOtvs0G`),
+      provider: () => new HDWalletProvider(mnemonic, `https://eth-goerli.g.alchemy.com/v2/Sf6b0poSDD-H3IGTmBItxr8Ph2sYiNMV`),
       network_id: 5,       // Goerli's id
       gas: 5500000,        // Ropsten has a lower block limit than mainnet
       confirmations: 2,    // # of confirmations to wait between deployments. (default: 0)

@@ -10,7 +10,6 @@ contract Lottery{
     constructor(){
         manager=msg.sender;
     }
-
     receive() external payable{ //receive is a special type of function.
         require(msg.value==0.1 ether, "Please pay 0.1 ether only");
         players.push(payable(msg.sender));
